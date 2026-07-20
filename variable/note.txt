@@ -1,0 +1,98 @@
+JAVA SCRIPT ::
+->java script is a programing languagr that lets developer creat incritive web page .
+->java script is a light weight object oriented programing languagr , that use to several webpage to scripting webpage .
+->java is a interpriter language that exicuted by line by line , providing more flexibility .
+->java script is a single trade language that exicuted one tax at a time .
+->java script is dyanamic data type .
+
+
+APPLICATION OF JAVASCRIPT::
+(java scripit content multiple application like :)
+->Web Development.
+->Server Application.
+->Game Development.
+->Web application.
+->Smart watch application.
+etc......
+
+
+VARIABLE AND DATA TYPE::
+->variable is a contener of data .
+->In JavaScript, a variable is a named storage location that holds a value, which can be any data type,
+ such as numbers, strings, objects, etc. It can be declared using keywords like var, let, or const.
+->variable cannot allow space .
+->
+
+GLOBAL VARIABLE :
+->in JavaScript, Global variable are those variable which is declared outside of the function
+and it can be accebale anywhere whithin the scripit ,including the function.
+
+syntax:
+let GlobalVal="9";
+
+
+RULE OF NAMING VARIABLE:
+->There are some rules while declaring a JavaScript variable (also known as identifiers).
+
+.Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+.After the first letter, we can use digits (0 to 9), for example, value1.
+.JavaScript variables are case-sensitive; for example, x and X are different variables.
+.resarve word cannot be variable name .
+
+VARIABLE ARE DEFIND AS :
+(variable are defind as three type:)
+->VAR(variable are re-declared & update ,Global  Scope variable . )
+->LET(variable are cannot re-declared but update , A block scope variable .)
+->CONST(variable are cannot be re-declared and update , A block scope variable . )
+
+
+->bulian value:
+ -true
+ -false
+ (0,1)
+
+-> ( = ) is a assign operator .
+->{}is called block.
+  .inside the block write the code is called is called block of code. 
+
+
+
+
+
+  DATA TYPE IN JAVASCRIPT::
+  
+  ->In Jvascript data type has two type:
+ 
+ ex-
+ age
+ 21
+ typeof age
+ 'number'
+  
+  1.PRIMITIVE :
+
+  ->Definition:
+  ->Primitive data types are the basic built-in data types in JavaScript.
+  ->They store a single value and are immutable,
+    which means their values cannot be changed after they are created.
+  -> If you modify a primitive value, JavaScript creates a new value instead of changing the original one.
+  ->There are content 7type of premitive data type :
+  1.Number
+  2.Strings
+  3.Boolean
+  4.Undefind
+  5.Null
+  6.Bint
+  7.Symbol
+
+  2.NON_PREMETIVE:
+
+  Definition:
+  ->Non-primitive data types are data types that can store multiple values or collections of data.
+  ->They are mutable, which means their contents can be changed after they are created.
+  ->Non-primitive values are stored by reference, not by value.
+  ->The main non-primitive data type in JavaScript is Object. 
+  ->Arrays and functions are also special kinds of objects.
+  ->object-collections of value.(Arrays and function),it store has key:value.
+
+Allert is amessage .
