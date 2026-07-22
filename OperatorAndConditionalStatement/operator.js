@@ -180,7 +180,7 @@ console.log("Operators and Conditional Statements in JavaScript");
 // .0-49=E
 
 
-let mark = "91";
+let mark = prompt("Enter your score(0-100):");
  let grade;
  if(mark >= 80 && mark <= 100) {
      grade = "A";
