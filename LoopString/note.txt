@@ -1,0 +1,40 @@
+LOOPs:
+
+-> lOOPs are used to execute a piece of code again & again.
+
+for lOOPs:
+
+syantax:
+
+it content 3 state ment.
+Ex- for(let i = 0,1,2...n (intialization); i <= 7(stoping condition) ; i++(updatetion) ){
+    console.log("jyoti");
+}
+
+INFANITE LOOP : A lOOPs never ends.
+->stoping condition all ways tru.
+
+
+WHILE lOOPs:
+-->it has first intialization.
+-->condition/stoping.
+-->updatetion inside the lOOPs.
+ 
+ Syntax:
+
+while(condition){
+    //do somework.
+}
+
+DO.WHILE LOOPs:
+
+--> it 
+
+syantax:
+
+do{
+
+}while(condition);
+
+
+
