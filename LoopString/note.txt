@@ -60,6 +60,43 @@ FOR IN LOOPs:
 
 -->A string is a sequence of characters enclosed in single quotes ('), double quotes ("), or backticks (`).
 -->string is a sequence of charecter used to reprasent text.
+
 -->CREATE STRIN:
 1.let str = "jyotiprakash";
 2.let str2 = 'jyoti';
+
+-->String length:
+1.str.length
+Ex-  str
+    'jyotiprakash'
+     str.length
+     12
+
+-->STRING INDICES/index:
+atr[0]
+->it has behave like object.
+ex - obj[key];
+
+
+TEMPLATE LITERALS IN JS:
+-->type of special string.
+-->A way to have embedded exprations in strings
+`this is a templete literal`
+
+STRING INTERPOLATION :
+
+-->to create string by dowing substitution of placeholder.
+-->`string text ${expression}string text`.
+
+ESCAPE charecter:
+
+-->
+
+
+
+STRING METHOD iN JS :
+-->these are built-in function to maninpulate a string.
+-->METHOD like a block of code .
+
+1.str.toUpperCase()
+
