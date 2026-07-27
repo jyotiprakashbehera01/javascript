@@ -60,4 +60,6 @@ FOR IN LOOPs:
 
 -->A string is a sequence of characters enclosed in single quotes ('), double quotes ("), or backticks (`).
 -->string is a sequence of charecter used to reprasent text.
-
+-->CREATE STRIN:
+1.let str = "jyotiprakash";
+2.let str2 = 'jyoti';

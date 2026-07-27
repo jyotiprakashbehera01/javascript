@@ -96,11 +96,13 @@
 //Q2.create a game where you start with any game number .
 //  ask the user to keep guessing the number until the user enters correct value ?
 
-let gameNumber = 8 ;
-let userNumber = prompt("Guess The Number : ");
+// let gameNumber = 8 ;
+// let userNumber = prompt("Guess The Number : ");
 
-while(gameNumber != userNumber){
-    //play game .
-   userNumber = prompt("it has enter the rong number,Guess The right Number : ");
-}
-console.log("Congratulation , You have chouse Right Number");
+// while(gameNumber != userNumber){
+//     //play game .
+//    userNumber = prompt("it has enter the rong number,Guess The right Number : ");
+// }
+// console.log("Congratulation , You have chouse Right Number");
+
+
