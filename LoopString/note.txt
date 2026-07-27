@@ -28,7 +28,7 @@ while(condition){
 
 DO.WHILE LOOPs:
 
---> it 
+--> it has conditi check in last.
 
 syantax:
 
@@ -37,4 +37,20 @@ do{
 }while(condition);
 
 
+FOR-OF-LOOPs:(speal loop)
 
+-->it general help to iterate some special data type.
+-->it use string and array.
+-->it haas automaticaly updatetion,intialization,and condition proformance.
+
+syantax:
+
+for(let val of strVar){
+
+}
+
+
+FOR IN LOOPs:
+
+-->it hass use object, array.
+-->
