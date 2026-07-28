@@ -57,7 +57,7 @@ FOR IN LOOPs:
 
 
 * STRING :
-
+-->String are immutable.
 -->A string is a sequence of characters enclosed in single quotes ('), double quotes ("), or backticks (`).
 -->string is a sequence of charecter used to reprasent text.
 
@@ -99,4 +99,27 @@ STRING METHOD iN JS :
 -->METHOD like a block of code .
 
 1.str.toUpperCase()
+-->it has print charecter into uppercase.
+-->It cannote change original value , It allways create a new value .
+
+2.str.toLowerCase()
+-->it has print charecter into lowercase.
+-->It cannote change original value , It allways create a new value .
+
+3.str.trim()
+-->remove white space with start and end.
+
+4.str.slice(start,end)
+-->return part of string.
+-->end - has non enclusive.
+-->start - it has complosory to put in.
+
+5.str1.concat(str2)
+-->joints of to string.
+
+6.str.replace(serchval,newval)
+-->serch and replace the value.
+
+7.str.charAt(idx)
+-->
 
