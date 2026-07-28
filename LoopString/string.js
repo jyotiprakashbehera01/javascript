@@ -27,5 +27,5 @@
 //console.log("app \n naacollage"); //when use black slace
 // \n - next line .
 // \t -  tab .
-let str = "jyoti\tprakash";//tab has content some space or address.
+let str = "jyoti\tprakash";//tab has content some space or
 console.log(str.length);
