@@ -70,8 +70,8 @@
 // // console.log(str.replace("h","p"));
 // console.log(str.replaceAll("hello","jyoti"));
 
-let str="ilovemiki";
-console.log(str.charAt(2));
+// let str="ilovemiki";
+// console.log(str.charAt(2));
 
 
 
