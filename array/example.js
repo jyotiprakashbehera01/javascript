@@ -36,13 +36,34 @@
 
 //ans=
 
-let marks = [80,89,56,82,85,67];//given array
-//when use of for loop :
-let sum = 0;
-for(let valu of marks){
-    // console.log(valu);
-     sum += valu ;
- console.log(`Current Sum = ${sum}`);
+// let marks = [80,89,56,82,85,67];//given array
+// //when use of for loop :
+// let sum = 0;
+// for(let valu of marks){
+//     // console.log(valu);
+//      sum += valu ;//sum of all marks.
+// //  console.log(`Current Sum = ${sum}`);
+// }
+//  let avg = sum /marks.length ;//formula of avg .
+//     console.log(`Average=${avg}`);
+
+
+
+//Q2.form the given array with the price of 5 iteams,
+//[ 250 , 645 , 300 , 900 , 50 ] all iteams have offers 10% off them ,
+//change the array to the final price aftr applying offers ?
+
+//for of loop aproch :
+
+let iteam = [250 , 645 , 300 , 900 , 50];
+let i = 0;
+// console.log(iteam);
+
+//using for of loop:
+for(let val of iteam){
+    console.log(`Valu at index ${i} = ${val}`);
+    let off = val / 10 ; // persentage.
+    iteam[i] = iteam[i]-off;
+    console.log(`valu of offers = ${iteam[i]}`);
+    i++
 }
- let avg = sum /marks.length ;
-    console.log(`Average=${avg}`);
