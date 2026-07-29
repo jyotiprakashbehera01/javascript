@@ -23,3 +23,29 @@ for(let i=0;i<n;i++){
 2.for of loop:
 -->it hass 
 
+ARRAY METHOD :
+
+1.push():
+-->Add to end .
+-->arr.push();
+2.pop():
+-->Delet and return in last array .
+-->arr.pop();
+3.toString():
+-->Convert an array string.
+-->arr.toString();
+4.concat():
+-->to joint multiple array & retyrn result .
+-->arr1.concat(arr2);
+5.unshift():
+-->add to start.
+-->arr.unshift();
+6.shift():
+-->delet for start and return them.
+-->arr.shift();
+7.slice():
+-->return pice of the array.
+-->slice(starting index , ending index);
+8.splice():
+-->change original array(add,delet,replace);
+-->arr..splice();
