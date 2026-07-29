@@ -1,0 +1,8 @@
+ARRAY :
+-->An array in JavaScript is a special object used to store multiple values in a single variable.
+ Each value in an array is called an element, and each element has a numeric index starting from 0.
+-->It has mutable.
+-->It has don't content key value .
+-->Simply it has collection of an iteam .
+-->It has linear structure .
+
