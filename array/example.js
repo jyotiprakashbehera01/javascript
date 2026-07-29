@@ -55,15 +55,27 @@
 
 //for of loop aproch :
 
-let iteam = [250 , 645 , 300 , 900 , 50];
-let i = 0;
+// let iteam = [250 , 645 , 300 , 900 , 50];
+// let i = 0;
 // console.log(iteam);
 
-//using for of loop:
-for(let val of iteam){
-    console.log(`Valu at index ${i} = ${val}`);
-    let off = val / 10 ; // persentage.
-    iteam[i] = iteam[i]-off;
-    console.log(`valu of offers = ${iteam[i]}`);
-    i++
+// //using for of loop:
+
+// for(let val of iteam){
+//     console.log(`Valu at index ${i} = ${val}`);
+//     let off = val / 10 ; // persentage.
+//     iteam[i] = iteam[i]-off;
+//     console.log(`valu of offers = ${iteam[i]}`);
+//     i++
+// }
+
+
+// for loop approch:
+let iteam = [250, 645, 300, 900, 50];
+
+for (let i = 0; i < iteam.length; i++) {
+    let offer = iteam[i] / 10;
+    iteam[i] -= offer;
 }
+
+console.log(iteam);
