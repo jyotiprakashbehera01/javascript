@@ -6,3 +6,20 @@ ARRAY :
 -->Simply it has collection of an iteam .
 -->It has linear structure .
 
+ARRAY INDICES:
+-->arr[0],arr[1],arr[3]...it has index of an array.
+when it help to replace valu.
+
+LOOPING OVER AN ARRAY:
+-->It has itrable(string , object , array).
+
+1.for loop:
+-->it use length property.
+-->syntax:
+for(let i=0;i<n;i++){
+    //work 
+}
+
+2.for of loop:
+-->it hass 
+
