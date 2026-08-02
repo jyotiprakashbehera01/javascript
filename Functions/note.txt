@@ -3,6 +3,7 @@ FUNCTON :
 -->it has block of code , that perform specific task .
    can be involked where ever need .
 -->that create one time .
+-->function helps to redundancy .
 (input->block->output)
 
 
@@ -21,3 +22,5 @@ function functionName(){
 syntax :-
 
 functionName();
+
+-->function can return a value .
