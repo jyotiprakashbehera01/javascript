@@ -24,3 +24,23 @@ syntax :-
 functionName();
 
 -->function can return a value .
+-->function return at a one time after they cannot return .
+
+function parameter:
+syntsx:
+function functionName(parameter1,parameter2){
+    //work
+}
+-->it act like local variable scope.
+-->th has block of scope.
+-->function parameter like local variable of function.
+
+ARROW FUNCTION:
+--->It has compact way of writing function called as arrow function.
+-->when it add a variable like(const , arr).
+
+syntax:
+const functionName = (par1,par2)=>{
+    //work .
+}
+
