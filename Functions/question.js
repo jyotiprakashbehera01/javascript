@@ -88,3 +88,43 @@
 //     console.log(num*num);
 // }
 // num.forEach(callSquar);
+
+
+
+
+//Q4.We are given array of amrk of student,[70,90,20,85,93,89]  
+// .filter out of the mark of the student that score 90 ?
+
+
+// let mark = [70,90,20,85,93,89];
+
+// let toper = mark.filter((valu) =>{
+//      return valu >= 90 ;   
+// });
+// console.log(toper);
+
+
+
+//Q4.Take a number form n as input form user . create an array of number form 1 to n ?
+//i.Used reduced method to call callculate sum of all number in the array ?
+//ii.Used to reduced method to calculate product of all numbers in the array ?//check the factorial.
+
+
+let n = prompt("Enter anumber :");//input to user .
+let arr = [];//store an array.
+for(i=1 ;i<=n;i++){//using for loop.
+arr[i-1] = i;//index.
+}
+console.log(arr);
+//i.
+let sum = arr.reduce((rev,curr) => {
+     return rev+curr; 
+});
+console.log(sum);
+//ii.
+let factorial = arr.reduce((rev,curr) =>{
+    return rev *curr;
+});
+
+console.log(factorial);
+

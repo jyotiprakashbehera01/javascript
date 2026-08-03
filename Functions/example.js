@@ -102,9 +102,9 @@ let nums = [50,30,20];
 
 //Find the maximum number in an array using reduce method ?
 
-let arr = [23,95,102,200,1000];
-    let maximum = arr.reduce((prev,curr) => {
-          return prev > curr ? prev : curr;
-         });
+// let arr = [23,95,102,200,1000];
+//     let maximum = arr.reduce((prev,curr) => {
+//           return prev > curr ? prev : curr;
+//          });
 
-         console.log(maximum);
+//          console.log(maximum
