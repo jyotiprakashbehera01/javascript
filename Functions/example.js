@@ -83,11 +83,28 @@ let nums = [50,30,20];
 
 //FILTER :
 
-let arr = [1,2,3,4,5,6,7,8,9];
-let evenNums = arr.filter((val) =>{
-    return val % 2 === 0 ;//find even value
-    return val % 2!=== 0;//odd value
-});
-console.log(evenNums);
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let evenNums = arr.filter((val) =>{
+//     return val % 2 === 0 ;//find even value
+//     return val % 2!=== 0;//odd value
+// });
+// console.log(evenNums);
 
+//REDUCED :
 
+//Q. find the sum of all the numbers in an array using reduce method ?
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];//55
+// const output = arr.reduce((res ,cur) => {
+//     return res + cur ;
+// });
+// console.log(output);
+
+//Find the maximum number in an array using reduce method ?
+
+let arr = [23,95,102,200,1000];
+    let maximum = arr.reduce((prev,curr) => {
+          return prev > curr ? prev : curr;
+         });
+
+         console.log(maximum);

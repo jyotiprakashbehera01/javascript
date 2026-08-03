@@ -66,3 +66,15 @@ arr.map(callBack function(val , ind , arr));
  let newArr = arr.map((val) =>{
     return val * 2;
  })
+
+
+ FILTER :
+
+ -->Crete a new array of element's ,that give the condition / filter .
+
+
+ REDUCE :
+
+ -->perform some operation & reduced the array to single value .
+ -->it return that single value .
+ 
