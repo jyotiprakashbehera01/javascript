@@ -65,3 +65,26 @@
 // let result = countVowels("jyotiprakash");
 
 // console.log("Total vowels:", result);
+
+
+
+//Q2.For a given array of numbers , print the sqear of each value using the for each loop ?
+//[1,2,3,4,5]     output-->1,4,9,16,25 
+
+// //ans-->
+
+// let num = [1,2,3,4,5];
+
+// num.forEach((num) =>{
+//     console.log(num*num);//num **2
+// });
+
+
+//CallBack Approch :
+
+// let num = [1,2,3,4,5];
+
+// let callSquar = (num) => {
+//     console.log(num*num);
+// }
+// num.forEach(callSquar);

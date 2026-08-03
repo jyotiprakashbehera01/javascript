@@ -61,9 +61,11 @@
 //FOR EACH LOOP;
 //array ex-
 // let arr = [1, 2, , 3, 45, , 6];
-let arr = ["jyoti","jyoshna","shree","jiten"];
-arr.forEach(function printVal(val) {
-    // console.log(val);
-    console.log(val.toUpperCase());
-});
+// let arr = ["jyoti","jyoshna","shree","jiten"];
+// arr.forEach(function printVal(val) {
+//     // console.log(val);
+//     console.log(val.toUpperCase());
+// });
+
+
 
