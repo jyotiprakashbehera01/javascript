@@ -44,15 +44,3 @@ const functionName = (par1,par2)=>{
     //work .
 }
 
-//For each loop in array :
--->arr.forEach(collbackfunction);
---->callbackfunction:hear it is the function to execute for each element in the array.
--->A callbackfunction is the function that pass the argument on another function.
-
-syntax:
-
-arr.forEach(val) => {
-    console.log(val);
-    };
-    
-//for loo:
