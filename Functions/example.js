@@ -67,5 +67,17 @@
 //     console.log(val.toUpperCase());
 // });
 
+//map :
 
+let nums = [50,30,20];
+
+// nums.map((val)=>{
+//     console.log(val);
+// })
+
+let newArray = nums.map((val) => {
+    return val;
+ });
+ 
+ console.log(newArray);
 

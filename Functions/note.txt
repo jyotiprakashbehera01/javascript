@@ -53,3 +53,16 @@ HIGHER ORDER FUNCTION AND METHOD:
 
 -->It has take either parameter and  return them .
 
+
+MAP :
+
+-->Crete a new array with result of some operation ,
+   The value it's callBack return are used form new array.
+
+syntax:
+
+arr.map(callBack function(val , ind , arr));
+ 
+ let newArr = arr.map((val) =>{
+    return val * 2;
+ })
