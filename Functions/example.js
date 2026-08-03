@@ -75,9 +75,19 @@ let nums = [50,30,20];
 //     console.log(val);
 // })
 
-let newArray = nums.map((val) => {
-    return val;
- });
+// let newArray = nums.map((val) => {
+//     return val;
+//  });
  
- console.log(newArray);
+//  console.log(newArray);
+
+//FILTER :
+
+let arr = [1,2,3,4,5,6,7,8,9];
+let evenNums = arr.filter((val) =>{
+    return val % 2 === 0 ;//find even value
+    return val % 2!=== 0;//odd value
+});
+console.log(evenNums);
+
 
