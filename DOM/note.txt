@@ -1,0 +1,46 @@
+DOM:
+-->DOM is also known as document object model .
+-->DOM is a tree like structure , That represent HTML Webpage , 
+   so javascript can access it .
+-->It some dynamic changes,And dynamic manupulation .
+
+WINDO OBJECT :
+-->The window object represent an open windo in browser .
+-->It is brwser object (It not java script object),
+   & it automatically created by browser .
+-->It has global object with lot of property and method . 
+
+* --> Inside the tree are node , All node are object .
+
+* --> javascript is dynamic changes in line .
+* -->
+
+
+DOM MANUPULATION :
+-->javascript changes has HTML page ,and webpage after loding of browser .
+
+1.SelectingWith ID :
+-->When the symbol of id is (#).
+-->document.getElement Byid("my id")
+-->it containt single aelement.
+
+2.SelectingWith class:
+-->When the symbol of class is (.)
+-->It has containt group of in element .
+Ex-<p class=""></p>
+   <p class=""></p>
+   <p class=""></p>
+-->document.getElementByclass(myclass)
+-->It return HTML collrection .
+
+3.SelectingWith Tag :
+-->It select HTML element that perticular select with the tag name
+--><P>hello</P>
+   <P>World</P>
+-->let para = document.getElementByTagName("p")
+   console.log(para);
+
+4.Query Selector :
+-->Ir haas node list .
+-->document.querrySelector("Myid/MyClass/MyTag)
+-->it return 1st element.(by Default)
